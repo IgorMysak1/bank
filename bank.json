@@ -1,0 +1,5 @@
+[{"id":1, "bankName":"Monobank", "rate":4, "humanTrust":5},
+ {"id":2, "bankName":"PrivatBank", "rate":5, "humanTrust":5},
+ {"id":3, "bankName":"AvalBank", "rate":3, "humanTrust":4},
+ {"id":4, "bankName":"RaiffeisenBank", "rate":3, "humanTrust":5},
+ {"id":5, "bankName":"OschadBank", "rate":5, "humanTrust":3}]

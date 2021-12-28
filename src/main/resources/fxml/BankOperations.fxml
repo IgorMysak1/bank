@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BankOperations">
+   <children>
+       <ImageView fitHeight="600.0" fitWidth="1000.0">
+           <image>
+               <Image url="@assets/first.jpg" />
+           </image>
+       </ImageView>
+       <Button fx:id="moveBackBtn" layoutX="14.0" layoutY="511.0" mnemonicParsing="false" onAction="#moveBack" prefHeight="37.0" prefWidth="95.0" style="-fx-background-color: black;" text="back" textFill="WHITE">
+           <font>
+               <Font size="21.0" />
+           </font>
+       </Button>
+   
+       <TableView fx:id="operationsTable" onMouseClicked="#operationsClickHandler" layoutX="185.0" layoutY="170.0" prefHeight="292.0" prefWidth="630.0" style="-fx-background-color: black;" AnchorPane.rightAnchor="185.0">
+           <columns>
+               <TableColumn fx:id="moneyCol" prefWidth="175.0" text="Money" />
+               <TableColumn fx:id="currencyCol" prefWidth="110.0" text="Currency" />
+               <TableColumn fx:id="cardCol" prefWidth="217.0" text="Card" />
+               <TableColumn fx:id="dateCol" prefWidth="134.0" text="Date" />
+           </columns>
+       </TableView>
+   </children>
+
+</AnchorPane>

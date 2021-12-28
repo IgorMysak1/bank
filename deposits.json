@@ -1,0 +1,11 @@
+[{"id":1, "bankId":1, "maxSum":50000000.0, "timeOfIncome":12, "uan":1, "usd":1, "eur":0, "terminationPosibillity":1, "percent":10.0},
+ {"id":2, "bankId":1, "maxSum":1000000.0, "timeOfIncome":6, "uan":1, "usd":1, "eur":0, "terminationPosibillity":0, "percent":9.0},
+ {"id":3, "bankId":1, "maxSum":500000.0, "timeOfIncome":2, "uan":1, "usd":0, "eur":0, "terminationPosibillity":0, "percent":7.0},
+ {"id":4, "bankId":2, "maxSum":100000000.0, "timeOfIncome":24, "uan":1, "usd":1, "eur":0, "terminationPosibillity":1, "percent":6.0},
+ {"id":5, "bankId":3, "maxSum":10000000.0, "timeOfIncome":8, "uan":1, "usd":1, "eur":1, "terminationPosibillity":0, "percent":8.0},
+ {"id":6, "bankId":3, "maxSum":3000000.0, "timeOfIncome":4, "uan":1, "usd":0, "eur":0, "terminationPosibillity":0, "percent":6.0},
+ {"id":7, "bankId":4, "maxSum":50000000.0, "timeOfIncome":4, "uan":1, "usd":0, "eur":0, "terminationPosibillity":0, "percent":4.0},
+ {"id":8, "bankId":4, "maxSum":50000000.0, "timeOfIncome":12, "uan":1, "usd":1, "eur":0, "terminationPosibillity":1, "percent":5.0},
+ {"id":9, "bankId":5, "maxSum":2000000.0, "timeOfIncome":12, "uan":1, "usd":1, "eur":1, "terminationPosibillity":1, "percent":7.0},
+ {"id":10, "bankId":5, "maxSum":2000000.0, "timeOfIncome":6, "uan":1, "usd":0, "eur":0, "terminationPosibillity":0, "percent":5.0},
+ {"id":11, "bankId":5, "maxSum":100000.0, "timeOfIncome":2, "uan":1, "usd":0, "eur":0, "terminationPosibillity":0, "percent":4.0}]
